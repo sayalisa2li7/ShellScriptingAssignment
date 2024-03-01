@@ -33,6 +33,7 @@ while true; do
             echo "Invalid input."
             continue
     esac
+    break
 done
             
 while true; do
