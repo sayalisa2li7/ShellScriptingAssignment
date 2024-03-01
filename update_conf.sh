@@ -32,6 +32,8 @@ while true; do
         *)
             echo "Invalid input."
             continue
+    esac
+done
             
 while true; do
     read -p "Enter Component Name [INGESTOR/JOINER/WRANGLER/VALIDATOR]: " component
